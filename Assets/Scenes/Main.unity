@@ -20,12 +20,12 @@ RenderSettings:
   m_FogDensity: 1
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.49056602, g: 0.3956924, b: 0.3956924, a: 1}
+  m_AmbientSkyColor: {r: 0.075, g: 0.09688288, b: 0.15, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 0
-  m_AmbientMode: 0
-  m_SubtractiveShadowColor: {r: 0.9056604, g: 0.16660735, b: 0.16660735, a: 1}
+  m_AmbientMode: 3
+  m_SubtractiveShadowColor: {r: 0, g: 0, b: 0, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: 4a06daa6112c19a4483cfbc677940a2e, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionBounces: 1
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
-  m_Sun: {fileID: 2064597812}
+  m_Sun: {fileID: 0}
   m_IndirectSpecularColor: {r: 0.0005169602, g: 0.0005169602, b: 0.0005169602, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
@@ -474,7 +474,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &303439010
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1067,7 +1067,7 @@ PrefabInstance:
     - target: {fileID: 5707415722475957655, guid: b9a9f8908cddf704da63931e399d6e3f,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5707415722475957655, guid: b9a9f8908cddf704da63931e399d6e3f,
         type: 3}
@@ -1292,7 +1292,7 @@ PrefabInstance:
     - target: {fileID: 5707415723174070931, guid: b9a9f8908cddf704da63931e399d6e3f,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5707415723241332037, guid: b9a9f8908cddf704da63931e399d6e3f,
         type: 3}
@@ -1850,7 +1850,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 14c5243a9474fdd42a1eb6c4014fdf57,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 14c5243a9474fdd42a1eb6c4014fdf57, type: 3}
@@ -2471,7 +2471,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &905403356
 Transform:
   m_ObjectHideFlags: 0
@@ -4149,7 +4149,7 @@ MonoBehaviour:
   priority: 0
   blendDistance: 0
   weight: 1
-  sharedProfile: {fileID: 11400000, guid: b31519352fbd29a42b480f01e41284d7, type: 2}
+  sharedProfile: {fileID: 11400000, guid: 2ac6c668bd2bd9a4aba8877e500e0bce, type: 2}
 --- !u!4 &1584458145
 Transform:
   m_ObjectHideFlags: 0
@@ -4159,7 +4159,7 @@ Transform:
   m_GameObject: {fileID: 1584458143}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 100000, y: 1000000, z: 100000}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
@@ -4327,7 +4327,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1695798422
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4577,12 +4577,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bdb1f09434d9c214ea71ed8f6db7f4a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!108 &2064597812 stripped
-Light:
-  m_CorrespondingSourceObject: {fileID: 5707415721352086068, guid: b9a9f8908cddf704da63931e399d6e3f,
-    type: 3}
-  m_PrefabInstance: {fileID: 402935557}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &8233815072374823752
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4756,7 +4750,7 @@ PrefabInstance:
     - target: {fileID: 8233815072539927060, guid: 6c75f2669b31f344da7031a9161421f7,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8233815072539927062, guid: 6c75f2669b31f344da7031a9161421f7,
         type: 3}
@@ -4901,7 +4895,7 @@ PrefabInstance:
     - target: {fileID: 8233815073641714620, guid: 6c75f2669b31f344da7031a9161421f7,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8233815073641714620, guid: 6c75f2669b31f344da7031a9161421f7,
         type: 3}

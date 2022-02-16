@@ -15,12 +15,12 @@ C:/Users/autum/OneDrive/Desktop/VR Class 4/2001-ReMake
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65318
+54133
 Successfully changed project path to: C:/Users/autum/OneDrive/Desktop/VR Class 4/2001-ReMake
 C:/Users/autum/OneDrive/Desktop/VR Class 4/2001-ReMake
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 56.77 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 1.05 ms.
+Refreshing native plugins compatible for Editor in 58.61 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 1.09 ms.
 Initialize engine version: 2020.3.21f1 (a38c86f6690f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/autum/OneDrive/Desktop/VR Class 4/2001-ReMake/Assets
@@ -35,39 +35,39 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56016
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56580
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002260 seconds.
+Registered in 0.002290 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 51.54 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 50.90 ms, found 5 plugins.
 Preloading 1 native plugins for Editor in 0.07 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.457 seconds
+- Completed reload, in  1.609 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1457ms)
-		BeginReloadAssembly (38ms)
+	ReloadAssembly (1609ms)
+		BeginReloadAssembly (39ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (357ms)
+		EndReloadAssembly (358ms)
 			LoadAssemblies (37ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (115ms)
+			SetupTypeCache (116ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (21ms)
 			SetupLoadedEditorAssemblies (145ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (52ms)
+				RefreshPlugins (51ms)
 				BeforeProcessingInitializeOnLoad (12ms)
 				ProcessInitializeOnLoadAttributes (57ms)
 				ProcessInitializeOnLoadMethodAttributes (19ms)
@@ -77,12 +77,12 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006458 seconds.
+Registered in 0.006792 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 53.38 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 52.12 ms, found 5 plugins.
 Preloading 1 native plugins for Editor in 0.07 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
@@ -104,29 +104,29 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.993 seconds
+- Completed reload, in  0.978 seconds
 Domain Reload Profiling:
-	ReloadAssembly (994ms)
-		BeginReloadAssembly (113ms)
+	ReloadAssembly (979ms)
+		BeginReloadAssembly (107ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (15ms)
-		EndReloadAssembly (830ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (821ms)
 			LoadAssemblies (80ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (266ms)
+			SetupTypeCache (263ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (336ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (332ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (54ms)
-				BeforeProcessingInitializeOnLoad (76ms)
-				ProcessInitializeOnLoadAttributes (181ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
+				RefreshPlugins (52ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (179ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -134,15 +134,15 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
 Refreshing native plugins compatible for Editor in 0.66 ms, found 5 plugins.
 Preloading 1 native plugins for Editor in 0.07 ms.
 Unloading 3351 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 156.2 MB.
-System memory in use after: 156.4 MB.
+System memory in use before: 156.4 MB.
+System memory in use after: 156.6 MB.
 
 Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 3794.
-Total: 3.335600 ms (FindLiveObjects: 0.347900 ms CreateObjectMapping: 0.186900 ms MarkObjects: 2.732500 ms  DeleteObjects: 0.067400 ms)
+Total: 3.213200 ms (FindLiveObjects: 0.294800 ms CreateObjectMapping: 0.158100 ms MarkObjects: 2.705700 ms  DeleteObjects: 0.053900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -156,16 +156,1087 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/Main/Global Volume Profile 1.asset
-  artifactKey: Guid(2ac6c668bd2bd9a4aba8877e500e0bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Main/Global Volume Profile 1.asset using Guid(2ac6c668bd2bd9a4aba8877e500e0bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1700c6669edb8006ad8f39943a5f2be3') in 0.030045 seconds 
-  Import took 0.035075 seconds .
+  path: Assets/Textures/Earth.jpg
+  artifactKey: Guid(34ae5cd1ef08625418f932bb15619cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Earth.jpg using Guid(34ae5cd1ef08625418f932bb15619cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20edd66d1b4b19ee5617e8679aae39c2') in 0.170890 seconds 
+  Import took 0.175778 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.984846 seconds.
-  path: Assets/Scenes/Main/Global Volume Profile 1.asset
-  artifactKey: Guid(2ac6c668bd2bd9a4aba8877e500e0bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Main/Global Volume Profile 1.asset using Guid(2ac6c668bd2bd9a4aba8877e500e0bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c05948710fa4514f55e4ecf08a148a88') in 0.007220 seconds 
-  Import took 0.012392 seconds .
+  Time since last request: 0.000131 seconds.
+  path: Assets/VR Controllers Models/Oculus Controllers/oculus_rifts_controller_left/left_diff.png
+  artifactKey: Guid(f3caf4cf6d83d5f4fb828409233c82c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Oculus Controllers/oculus_rifts_controller_left/left_diff.png using Guid(f3caf4cf6d83d5f4fb828409233c82c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '472111bbb2be734c487e975f03600a09') in 0.058662 seconds 
+  Import took 0.063826 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/CosmicCoolCloudRight.hdr
+  artifactKey: Guid(438e868ac8cccca4e81873838a67c003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/FreebieHdri/CosmicCoolCloudRight.hdr using Guid(438e868ac8cccca4e81873838a67c003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08a872334f57b1621fd9f044a101ef2a') in 0.074956 seconds 
+  Import took 0.079883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Sketchfab For Unity/Dependencies/Resources/TitilliumWeb-Thin.ttf
+  artifactKey: Guid(069ae99b1d0b42946bd85dcc90f28d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sketchfab For Unity/Dependencies/Resources/TitilliumWeb-Thin.ttf using Guid(069ae99b1d0b42946bd85dcc90f28d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d4dd75b851129fa0f68752e2cfdc00e') in 0.123883 seconds 
+  Import took 0.128803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/CosmicCoolCloudLeft.hdr
+  artifactKey: Guid(740f96d568f4f3e40b049c40f11603e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/FreebieHdri/CosmicCoolCloudLeft.hdr using Guid(740f96d568f4f3e40b049c40f11603e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '793832946576e4760269fd1dd38d7f7b') in 0.044545 seconds 
+  Import took 0.049587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/TutorialInfo/VR Controllers Models/Oculus Controllers/oculus_cv1_controller_right/external_controller01.psd
+  artifactKey: Guid(01d3f3b0a095275478cc1c0723cf8985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo/VR Controllers Models/Oculus Controllers/oculus_cv1_controller_right/external_controller01.psd using Guid(01d3f3b0a095275478cc1c0723cf8985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ff2fd2b62488975f09dd12a4684e6dc') in 0.049998 seconds 
+  Import took 0.054363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Sketchfab For Unity/Dependencies/Resources/OpenSans-Semibold.ttf
+  artifactKey: Guid(ee5666b5e771fec4ca5cd1fc332a5b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sketchfab For Unity/Dependencies/Resources/OpenSans-Semibold.ttf using Guid(ee5666b5e771fec4ca5cd1fc332a5b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5ca1c44f2518c6bfcd7775398e9a485') in 0.008324 seconds 
+  Import took 0.013784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/DayInTheClouds4k.hdr
+  artifactKey: Guid(90196f2c2d8d2f2448717676e1a09894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/FreebieHdri/DayInTheClouds4k.hdr using Guid(90196f2c2d8d2f2448717676e1a09894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ac050d777ebca174b936ef1c1621262') in 0.329518 seconds 
+  Import took 0.335257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/FluffballDayFront.hdr
+  artifactKey: Guid(4499836ec803a0443834895abc208fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/FreebieHdri/FluffballDayFront.hdr using Guid(4499836ec803a0443834895abc208fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f7ef683d96a1cd98a469f4700af519d') in 0.020309 seconds 
+  Import took 0.025271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/VR Controllers Models/Oculus Controllers/oculus_cv1_controller_left/external_controller01_col.png
+  artifactKey: Guid(3250cf1496074bf4db55f2ce2a36bfc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Oculus Controllers/oculus_cv1_controller_left/external_controller01_col.png using Guid(3250cf1496074bf4db55f2ce2a36bfc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a65a7047f62788964e989e6393dda8f') in 0.039103 seconds 
+  Import took 0.044155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Sketchfab For Unity/Dependencies/Resources/icon.png
+  artifactKey: Guid(8800555f70b11f940a10f3203e79b13a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sketchfab For Unity/Dependencies/Resources/icon.png using Guid(8800555f70b11f940a10f3203e79b13a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1be407ecba396504e3cc9d6547853e27') in 0.004548 seconds 
+  Import took 0.009524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/CoriolisNight4k.hdr
+  artifactKey: Guid(354036e57ae357148aed267204ce73a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/FreebieHdri/CoriolisNight4k.hdr using Guid(354036e57ae357148aed267204ce73a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bac0afa1897f9e688b4d990d85b11eb') in 0.254906 seconds 
+  Import took 0.260537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/HighFantasy4k.hdr
+  artifactKey: Guid(6e998e53d0a82bb45928cd08a0fcfff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/FreebieHdri/HighFantasy4k.hdr using Guid(6e998e53d0a82bb45928cd08a0fcfff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d620dbba0dda8437300051016807c8d') in 0.236695 seconds 
+  Import took 0.242420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/FluffballDayBack.hdr
+  artifactKey: Guid(50762494be58d144d98d179cd6ba1470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/FreebieHdri/FluffballDayBack.hdr using Guid(50762494be58d144d98d179cd6ba1470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f327d50f5925bf91ce356c58c6f527a8') in 0.021097 seconds 
+  Import took 0.026380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Sketchfab For Unity/Dependencies/Resources/TitilliumWeb-Light.ttf
+  artifactKey: Guid(932f07f074f5cbd4fba92975462c6e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sketchfab For Unity/Dependencies/Resources/TitilliumWeb-Light.ttf using Guid(932f07f074f5cbd4fba92975462c6e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f03757f37a94665f592977ed42a9cb7') in 0.009066 seconds 
+  Import took 0.014139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/VR Controllers Models/Oculus Controllers/oculus_cv1_controller_right/external_controller01_col.png
+  artifactKey: Guid(3ba801bf08042f74b8bb54c8a4c5c142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Oculus Controllers/oculus_cv1_controller_right/external_controller01_col.png using Guid(3ba801bf08042f74b8bb54c8a4c5c142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8de9c170addc72f0c5dcf3b1e5eb25f3') in 0.038760 seconds 
+  Import took 0.043637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/TutorialInfo/VR Controllers Models/Oculus Controllers/oculus_cv1_controller_left/external_controller01_spec.png
+  artifactKey: Guid(ba6c971befdba6747b307291cdc601cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo/VR Controllers Models/Oculus Controllers/oculus_cv1_controller_left/external_controller01_spec.png using Guid(ba6c971befdba6747b307291cdc601cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d71e4b9e19a0723b76fdbfd67d1beaa') in 0.045153 seconds 
+  Import took 0.049252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/CosmicCoolCloudBottom.hdr
+  artifactKey: Guid(94b877781ad034640abce933599b6f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/FreebieHdri/CosmicCoolCloudBottom.hdr using Guid(94b877781ad034640abce933599b6f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '118fc9cdba945c9f15b6fa545194c329') in 0.044798 seconds 
+  Import took 0.049557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Sketchfab For Unity/Dependencies/Resources/defaultModel.png
+  artifactKey: Guid(4031f98ad4095c04e8a757b95f992c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sketchfab For Unity/Dependencies/Resources/defaultModel.png using Guid(4031f98ad4095c04e8a757b95f992c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a291e2d2d19518f3dc2621022e5c19b9') in 0.006878 seconds 
+  Import took 0.011801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/quest-2-controller-low-mid-and-high-poly/textures/Color1k.png
+  artifactKey: Guid(90876a5ad6192a84eba0ade2d5599984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/quest-2-controller-low-mid-and-high-poly/textures/Color1k.png using Guid(90876a5ad6192a84eba0ade2d5599984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b2d217a935e0c54e3b9d6abff31a0ca') in 0.015463 seconds 
+  Import took 0.020154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/TutorialInfo/VR Controllers Models/Oculus Controllers/oculus_cv1_controller_right/external_controller01_spec.png
+  artifactKey: Guid(4c83afe3ba6d6c7449b2e4857684eb29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo/VR Controllers Models/Oculus Controllers/oculus_cv1_controller_right/external_controller01_spec.png using Guid(4c83afe3ba6d6c7449b2e4857684eb29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c3f50d193c383a76a13fc1df62a87a3') in 0.039242 seconds 
+  Import took 0.044266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/FluffballDayRight.hdr
+  artifactKey: Guid(669daa4bd63e4204dacb9aa01a164a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/FreebieHdri/FluffballDayRight.hdr using Guid(669daa4bd63e4204dacb9aa01a164a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ca31c2c696c77039dc264fea4f62311') in 0.019787 seconds 
+  Import took 0.024178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Sketchfab For Unity/Dependencies/Resources/OpenSans-Bold.ttf
+  artifactKey: Guid(c4a4f38739b2f214285296818ef463ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sketchfab For Unity/Dependencies/Resources/OpenSans-Bold.ttf using Guid(c4a4f38739b2f214285296818ef463ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '786ae65a43b790ee930ecd9a717b8817') in 0.008615 seconds 
+  Import took 0.013728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Sketchfab For Unity/Dependencies/Resources/TitilliumWeb-Regular.ttf
+  artifactKey: Guid(b6441e4076c3d8d49b31714d8c9ec3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sketchfab For Unity/Dependencies/Resources/TitilliumWeb-Regular.ttf using Guid(b6441e4076c3d8d49b31714d8c9ec3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a468af8c3b633f60fb0fc181d8930ecf') in 0.008009 seconds 
+  Import took 0.012567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/TutorialInfo/Icons/Help_Icon.png
+  artifactKey: Guid(34f556d724b1bbf4097ca6220db2c581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo/Icons/Help_Icon.png using Guid(34f556d724b1bbf4097ca6220db2c581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6ec8ae298204a465e017156c57c4b93') in 0.006069 seconds 
+  Import took 0.011071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/VR Controllers Models/Oculus Controllers/oculus_cv1_controller_left/external_controller01.psd
+  artifactKey: Guid(2e8838c7949d4994bbd74a2a87d3e9c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Oculus Controllers/oculus_cv1_controller_left/external_controller01.psd using Guid(2e8838c7949d4994bbd74a2a87d3e9c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a2efac465d51a438e0128636398473a') in 0.037085 seconds 
+  Import took 0.042121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/TutorialInfo/VR Controllers Models/Oculus Controllers/oculus_cv1_controller_right/external_controller01_col.png
+  artifactKey: Guid(4923668760bc0b74388dd62a4c56ef05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo/VR Controllers Models/Oculus Controllers/oculus_cv1_controller_right/external_controller01_col.png using Guid(4923668760bc0b74388dd62a4c56ef05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fd363a90f413e724e1310dff3dcd63d') in 0.037824 seconds 
+  Import took 0.041959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/FluffballDayLeft.hdr
+  artifactKey: Guid(a78d8299279fda54098aca1c72ecfae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/FreebieHdri/FluffballDayLeft.hdr using Guid(a78d8299279fda54098aca1c72ecfae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc9becdf2a1feab3350ac4d0239e65a1') in 0.019377 seconds 
+  Import took 0.023391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/CasualDay4K.hdr
+  artifactKey: Guid(1153dc89e66880c4eb7adc16ba588855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/FreebieHdri/CasualDay4K.hdr using Guid(1153dc89e66880c4eb7adc16ba588855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65c0919c774ff13b2a45dea128461738') in 0.270374 seconds 
+  Import took 0.276191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/CosmicCoolCloudBack.hdr
+  artifactKey: Guid(a779becf00399924184cd13e046a100e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/FreebieHdri/CosmicCoolCloudBack.hdr using Guid(a779becf00399924184cd13e046a100e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3ec64d87bfa40819cb00a269b407d37') in 0.045942 seconds 
+  Import took 0.050857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/FluffballDayTop.hdr
+  artifactKey: Guid(c769857dc541ab7449d1352d7ff46ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/FreebieHdri/FluffballDayTop.hdr using Guid(c769857dc541ab7449d1352d7ff46ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a5f1dfc9d4491b00854d4d291140065') in 0.019544 seconds 
+  Import took 0.023967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/TutorialInfo/VR Controllers Models/Oculus Controllers/oculus_cv1_controller_left/external_controller01.psd
+  artifactKey: Guid(363be5470e769814196afdedeca1f5ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo/VR Controllers Models/Oculus Controllers/oculus_cv1_controller_left/external_controller01.psd using Guid(363be5470e769814196afdedeca1f5ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3282fea1d3856c83e6f5e3d5dc3dda10') in 0.038924 seconds 
+  Import took 0.043661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Textures/2001_a_space_odyssey_-_original_alex_north_score.png
+  artifactKey: Guid(aa6dcc99aa9fb35499e43d55942cf0e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/2001_a_space_odyssey_-_original_alex_north_score.png using Guid(aa6dcc99aa9fb35499e43d55942cf0e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcafbadc7c57a4bb40abfdd888a495fe') in 0.022954 seconds 
+  Import took 0.027563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/CosmicCoolCloudTop.hdr
+  artifactKey: Guid(a199da0432efa6a489df8883d1f3bfe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/FreebieHdri/CosmicCoolCloudTop.hdr using Guid(a199da0432efa6a489df8883d1f3bfe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30cdfb8cb2ca269afdd7d07fdb7aea61') in 0.045203 seconds 
+  Import took 0.050869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Sketchfab For Unity/Dependencies/Resources/OpenSans-Regular.ttf
+  artifactKey: Guid(3a7f6f0ee62dc1a419509d2442cb0542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sketchfab For Unity/Dependencies/Resources/OpenSans-Regular.ttf using Guid(3a7f6f0ee62dc1a419509d2442cb0542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4934cc43a66512e20050bed73d2de800') in 0.008249 seconds 
+  Import took 0.013098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/VR Controllers Models/Oculus Controllers/oculus_cv1_controller_right/external_controller01.psd
+  artifactKey: Guid(39d14cac250f3b34091566fa990ec867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Oculus Controllers/oculus_cv1_controller_right/external_controller01.psd using Guid(39d14cac250f3b34091566fa990ec867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aace0b69263b927c7ddd8418df03853') in 0.036822 seconds 
+  Import took 0.041873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/DarkStorm4K.hdr
+  artifactKey: Guid(762f22ba43541df4e95e0e7126e8d96c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/FreebieHdri/DarkStorm4K.hdr using Guid(762f22ba43541df4e95e0e7126e8d96c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78cd26ab5c181cae70d9723eac9dd86d') in 0.253361 seconds 
+  Import took 0.258382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/CloudedSunGlow4k.hdr
+  artifactKey: Guid(12c15a8e5a294be45819b1dd4b9b08d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/FreebieHdri/CloudedSunGlow4k.hdr using Guid(12c15a8e5a294be45819b1dd4b9b08d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '158402479df1f0715245c5a863d512b5') in 0.230241 seconds 
+  Import took 0.235866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/CosmicCoolCloudFront.hdr
+  artifactKey: Guid(d822c5eff7d42f04691027bc8c2b0716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/FreebieHdri/CosmicCoolCloudFront.hdr using Guid(d822c5eff7d42f04691027bc8c2b0716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '079c5c059996054eca0f9720656fd047') in 0.047137 seconds 
+  Import took 0.051574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Sketchfab For Unity/Dependencies/Resources/defaultAvatar.jpg
+  artifactKey: Guid(5407ede664b2b584fa51e9b93b5964a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sketchfab For Unity/Dependencies/Resources/defaultAvatar.jpg using Guid(5407ede664b2b584fa51e9b93b5964a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4bf611749f93b2d08948284060b0619') in 0.005364 seconds 
+  Import took 0.010175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/VolumetricLines/BuiltInRenderPipeline/ExampleScenes/ExampleTextures/gui.png
+  artifactKey: Guid(9d8463b3c89aa844289e2b169c96d827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VolumetricLines/BuiltInRenderPipeline/ExampleScenes/ExampleTextures/gui.png using Guid(9d8463b3c89aa844289e2b169c96d827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaa8980eecba03a29cd647a878119c5d') in 0.007009 seconds 
+  Import took 0.011958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/TutorialInfo/VR Controllers Models/Oculus Controllers/oculus_rifts_controller_left/left_diff.png
+  artifactKey: Guid(a0ee6d589b6e32142b66bcbec469dae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo/VR Controllers Models/Oculus Controllers/oculus_rifts_controller_left/left_diff.png using Guid(a0ee6d589b6e32142b66bcbec469dae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19a9e2990e0dcf8dde1442edd1ea7553') in 0.038834 seconds 
+  Import took 0.043608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Textures/2001_c.jpg
+  artifactKey: Guid(be37e76f0f17df24283952c4dc9bca14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/2001_c.jpg using Guid(be37e76f0f17df24283952c4dc9bca14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9da0635cddd7ba50c7fedb9db4a43b81') in 0.013378 seconds 
+  Import took 0.018084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/AmbienceExposure4k.hdr
+  artifactKey: Guid(c9bc6cdb7a2e78b4c85ae74715b0a355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/FreebieHdri/AmbienceExposure4k.hdr using Guid(c9bc6cdb7a2e78b4c85ae74715b0a355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd62ce2f6a8f234714102b220879a7d5b') in 0.275104 seconds 
+  Import took 0.280741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/Cloudymorning4k.hdr
+  artifactKey: Guid(3b5d67736d7b8ad4f8da4d58eaef0b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/FreebieHdri/Cloudymorning4k.hdr using Guid(3b5d67736d7b8ad4f8da4d58eaef0b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b1521e3b7a7531af29bb383e35bc30c') in 0.254338 seconds 
+  Import took 0.259163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/FluffballDayBottom.hdr
+  artifactKey: Guid(42e0664ae4c5c424ebcd980a10687e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/FreebieHdri/FluffballDayBottom.hdr using Guid(42e0664ae4c5c424ebcd980a10687e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04b7807056bcc40c47a07b22a18d0716') in 0.019498 seconds 
+  Import took 0.024300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Textures/HexTileNormalMap.jpg
+  artifactKey: Guid(edf016277af7fd94985ffa43c71640e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/HexTileNormalMap.jpg using Guid(edf016277af7fd94985ffa43c71640e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da85ee88990b1d185a95e5fbf08ad15e') in 0.043669 seconds 
+  Import took 0.048430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/CosmicCoolCloudEQ_hdr.exr
+  artifactKey: Guid(09999639e73bcd64abda22253af612d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/FreebieHdri/CosmicCoolCloudEQ_hdr.exr using Guid(09999639e73bcd64abda22253af612d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c25817f1215358139ebf65e9643359ab') in 0.381001 seconds 
+  Import took 0.385915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/FluffballDay4k.hdr
+  artifactKey: Guid(3e80b688af9b1d84ea52c5d36bb1cbbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/FreebieHdri/FluffballDay4k.hdr using Guid(3e80b688af9b1d84ea52c5d36bb1cbbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab507f6b286056fc4ca46216f82deaf1') in 0.265050 seconds 
+  Import took 0.270268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/TutorialInfo/quest-2-controller-low-mid-and-high-poly/textures/Color1k.png
+  artifactKey: Guid(55454afcc4808614fab786e2c31cc99c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo/quest-2-controller-low-mid-and-high-poly/textures/Color1k.png using Guid(55454afcc4808614fab786e2c31cc99c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f84a3674b8b71b0dbe6f1c8804548554') in 0.021737 seconds 
+  Import took 0.026720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/TutorialInfo/VR Controllers Models/Oculus Controllers/oculus_rifts_controller_left/left_spec.png
+  artifactKey: Guid(243ed1a81bf5d584681af340a3843875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo/VR Controllers Models/Oculus Controllers/oculus_rifts_controller_left/left_spec.png using Guid(243ed1a81bf5d584681af340a3843875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd707ffb53b8925e10968f3a0ca250cf0') in 0.054863 seconds 
+  Import took 0.059683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/VR Controllers Models/Oculus Controllers/oculus_cv1_controller_right/external_controller01_spec.png
+  artifactKey: Guid(c7404a12b1ceddd42983e4964ed4833a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Oculus Controllers/oculus_cv1_controller_right/external_controller01_spec.png using Guid(c7404a12b1ceddd42983e4964ed4833a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a3b7b291964f0528f8aaf47428e93c7') in 0.058750 seconds 
+  Import took 0.063450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/TutorialInfo/VR Controllers Models/Oculus Controllers/oculus_cv1_controller_left/external_controller01_col.png
+  artifactKey: Guid(f44286f5459076f43a9b39a770577782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo/VR Controllers Models/Oculus Controllers/oculus_cv1_controller_left/external_controller01_col.png using Guid(f44286f5459076f43a9b39a770577782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3d44d569d48f55a5834421d9dceb195') in 0.047574 seconds 
+  Import took 0.051542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/VR Controllers Models/Oculus Controllers/oculus_cv1_controller_left/external_controller01_spec.png
+  artifactKey: Guid(940969f12bcdb164ea9c7b0238167281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Oculus Controllers/oculus_cv1_controller_left/external_controller01_spec.png using Guid(940969f12bcdb164ea9c7b0238167281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3877c314ba639d6c8ff78ae47232e62') in 0.044385 seconds 
+  Import took 0.048615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Sketchfab For Unity/Dependencies/Resources/OpenSans-Light.ttf
+  artifactKey: Guid(d0c1e17b8ba97c842b0b830abcbbaa34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sketchfab For Unity/Dependencies/Resources/OpenSans-Light.ttf using Guid(d0c1e17b8ba97c842b0b830abcbbaa34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f409c53aeb043f6d017f8130f7bee492') in 0.016239 seconds 
+  Import took 0.021228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Sketchfab For Unity/Dependencies/Resources/TitilliumWeb-Black.ttf
+  artifactKey: Guid(5c64e4ab5706b264a8fc4bd300391c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sketchfab For Unity/Dependencies/Resources/TitilliumWeb-Black.ttf using Guid(5c64e4ab5706b264a8fc4bd300391c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6362d1539b9ea1bee163cdcc37339d68') in 0.010744 seconds 
+  Import took 0.015386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Textures/ldem_4_uint.tif
+  artifactKey: Guid(06e85c2c85447d0479d479cb0dd0065d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ldem_4_uint.tif using Guid(06e85c2c85447d0479d479cb0dd0065d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b59a5ccc74423ee33f8923110b2c1523') in 0.014650 seconds 
+  Import took 0.019624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Sketchfab For Unity/Dependencies/Resources/TitilliumWeb-Bold.ttf
+  artifactKey: Guid(e095d0517cc773a4b8ca6410bb7099f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sketchfab For Unity/Dependencies/Resources/TitilliumWeb-Bold.ttf using Guid(e095d0517cc773a4b8ca6410bb7099f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '577761ef94324f139dc63b0bba32999c') in 0.008709 seconds 
+  Import took 0.013750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Sketchfab For Unity/Dependencies/Resources/TitilliumWeb-Semibold.ttf
+  artifactKey: Guid(55446a229435a7640b0f1980c8510a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sketchfab For Unity/Dependencies/Resources/TitilliumWeb-Semibold.ttf using Guid(55446a229435a7640b0f1980c8510a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1d49f0337bd2d796bd97e75387611ee') in 0.008448 seconds 
+  Import took 0.013100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.415128 seconds.
+  path: Assets/VR Controllers Models/Oculus Controllers/oculus_rifts_controller_left/left_spec.png
+  artifactKey: Guid(535bb8663160cbd4aa25a675770cce9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Oculus Controllers/oculus_rifts_controller_left/left_spec.png using Guid(535bb8663160cbd4aa25a675770cce9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2cd2e26b90a770b78278529c2951795') in 0.042894 seconds 
+  Import took 0.048210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/MegaSunLeft.hdr
+  artifactKey: Guid(7f0373fb8ec72a142898c7984aada4b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/FreebieHdri/MegaSunLeft.hdr using Guid(7f0373fb8ec72a142898c7984aada4b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46af086ac7785f7aaecbb9b2d44ae4c2') in 0.020916 seconds 
+  Import took 0.025882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/MegaSunFront.hdr
+  artifactKey: Guid(b915aaf1fa7dbd54a9e60e42712933a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/FreebieHdri/MegaSunFront.hdr using Guid(b915aaf1fa7dbd54a9e60e42712933a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d1a2c29a1526f6443f1c1660b50d66e') in 0.019638 seconds 
+  Import took 0.024502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/MegaSunTop.hdr
+  artifactKey: Guid(47d70ba0d1c1c3e4ab451b6bc37b0ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/FreebieHdri/MegaSunTop.hdr using Guid(47d70ba0d1c1c3e4ab451b6bc37b0ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '525cde641e5a70d1ca9ff70081381e2d') in 0.019492 seconds 
+  Import took 0.024074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/MegaSun4k.hdr
+  artifactKey: Guid(8967f190ed29c46418093a47d66daee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/FreebieHdri/MegaSun4k.hdr using Guid(8967f190ed29c46418093a47d66daee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc6e999440574b5ed2166faaea1b4866') in 0.262787 seconds 
+  Import took 0.268055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/MegaSunRight.hdr
+  artifactKey: Guid(f5760fc943c5eb643a2291630888f6a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/FreebieHdri/MegaSunRight.hdr using Guid(f5760fc943c5eb643a2291630888f6a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bc1ba0c2ebf8c2aac5b9f7fe2f42b53') in 0.019975 seconds 
+  Import took 0.024493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Textures/lroc_color_poles_2k.tif
+  artifactKey: Guid(569336857cbd66d459b0a5f6fb604ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/lroc_color_poles_2k.tif using Guid(569336857cbd66d459b0a5f6fb604ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '593303ca48bd7547e8a4d18e60d8edbc') in 0.025312 seconds 
+  Import took 0.030335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/MegaSunBack.hdr
+  artifactKey: Guid(4e52cbaf92b83a94cb86bed75ed34652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/FreebieHdri/MegaSunBack.hdr using Guid(4e52cbaf92b83a94cb86bed75ed34652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6d58ca5216fe4ed9c5180d6ee8e31ad') in 0.019963 seconds 
+  Import took 0.025081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/MegaSunBottom.hdr
+  artifactKey: Guid(3de85f3af41435a4c8f9d237bc1f19ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/FreebieHdri/MegaSunBottom.hdr using Guid(3de85f3af41435a4c8f9d237bc1f19ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4875e29f0d1d3899a120502559f9fe9f') in 0.019787 seconds 
+  Import took 0.024440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.584239 seconds.
+  path: Assets/TutorialInfo/VR Controllers Models/Oculus Controllers/oculus_rifts_controller_right/oculus_rifts_controller_right_thumbnail.png
+  artifactKey: Guid(82b17bcaf6c45e44ea3fac97ce7d7e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo/VR Controllers Models/Oculus Controllers/oculus_rifts_controller_right/oculus_rifts_controller_right_thumbnail.png using Guid(82b17bcaf6c45e44ea3fac97ce7d7e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3cb0486593aecae4fd07e558d61264d') in 0.006770 seconds 
+  Import took 0.011515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/VR Controllers Models/Oculus Controllers/oculus_rifts_controller_right/oculus_rifts_controller_right_thumbnail.png
+  artifactKey: Guid(989e468e15d033a4295f9cf51f4d17ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Oculus Controllers/oculus_rifts_controller_right/oculus_rifts_controller_right_thumbnail.png using Guid(989e468e15d033a4295f9cf51f4d17ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97413f248ab82663902fe68d7503087e') in 0.005869 seconds 
+  Import took 0.010651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/VR Controllers Models/Vive Controllers/Textures/onepointfive_occ_bake.tga
+  artifactKey: Guid(75071a01a7e49c14981957db73825c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Vive Controllers/Textures/onepointfive_occ_bake.tga using Guid(75071a01a7e49c14981957db73825c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aebce183e01d7a8ede526859b9302740') in 0.048668 seconds 
+  Import took 0.053381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/TutorialInfo/VR Controllers Models/Vive Controllers/Textures/onepointfive_texture.psd
+  artifactKey: Guid(6c334ec8906d1fe4f8cc3d02cec14197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo/VR Controllers Models/Vive Controllers/Textures/onepointfive_texture.psd using Guid(6c334ec8906d1fe4f8cc3d02cec14197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26fbc2090743da5ce4a0f27599257304') in 0.045504 seconds 
+  Import took 0.050205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/VR Controllers Models/Vive Controllers/Textures/onepointfive_texture.psd
+  artifactKey: Guid(e707a5041c96166428d6aaef3e5c6c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Vive Controllers/Textures/onepointfive_texture.psd using Guid(e707a5041c96166428d6aaef3e5c6c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0d0b4fbc60fa8359cee53d3de9efa16') in 0.045975 seconds 
+  Import took 0.051499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/TutorialInfo/VR Controllers Models/Vive Controllers/Textures/onepointfive_occ_bake.tga
+  artifactKey: Guid(983f11a137884c94a9d74f109a15ddbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo/VR Controllers Models/Vive Controllers/Textures/onepointfive_occ_bake.tga using Guid(983f11a137884c94a9d74f109a15ddbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7203776d3bb2c083f0a43165b9921731') in 0.045409 seconds 
+  Import took 0.050179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Sketchfab For Unity/Dependencies/Resources/planBiz.png
+  artifactKey: Guid(00e140f9d99fbfc43a8372ebe75c04f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sketchfab For Unity/Dependencies/Resources/planBiz.png using Guid(00e140f9d99fbfc43a8372ebe75c04f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a97de2d82cfcdcdba3fdfe257be2d01f') in 0.005003 seconds 
+  Import took 0.009867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/VR Controllers Models/Vive Controllers/Textures/onepointfive_spec.png
+  artifactKey: Guid(309ce0a3103b4d8459a30e849cb1d013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Vive Controllers/Textures/onepointfive_spec.png using Guid(309ce0a3103b4d8459a30e849cb1d013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e4093123232b6b3b18bb23b88ada351') in 0.039043 seconds 
+  Import took 0.043452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/TutorialInfo/VR Controllers Models/Vive Controllers/Textures/onepointfive_spec.png
+  artifactKey: Guid(ecc3e667a92fa47468cd2855cd2b3021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo/VR Controllers Models/Vive Controllers/Textures/onepointfive_spec.png using Guid(ecc3e667a92fa47468cd2855cd2b3021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1473c7315ece5aa057ea6102494ee48b') in 0.037567 seconds 
+  Import took 0.042257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035521 seconds.
+  path: Assets/Sketchfab For Unity/Dependencies/Resources/planEnt.png
+  artifactKey: Guid(95b4dd33b780351478f0a4b9c10fe4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sketchfab For Unity/Dependencies/Resources/planEnt.png using Guid(95b4dd33b780351478f0a4b9c10fe4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9637d60145c9633e7611a200d1765cc0') in 0.004699 seconds 
+  Import took 0.009807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Textures/Rated-G.png
+  artifactKey: Guid(86a21987d7b0d9c42ae84d0475ef9777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rated-G.png using Guid(86a21987d7b0d9c42ae84d0475ef9777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b68ccdea8de411e9176d4c4b3a9c54d') in 0.013208 seconds 
+  Import took 0.017986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/VR Controllers Models/Oculus Controllers/oculus_rifts_controller_right/right_diff.png
+  artifactKey: Guid(ead54d05e5c31864ca6c239f54fe962d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Oculus Controllers/oculus_rifts_controller_right/right_diff.png using Guid(ead54d05e5c31864ca6c239f54fe962d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '918695b4c0f44db214ad149c9fe2b3d1') in 0.036977 seconds 
+  Import took 0.041627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Scenes/Main/ReflectionProbe-0.exr
+  artifactKey: Guid(b83c7061305e21b4fa10f4fc9e88d671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main/ReflectionProbe-0.exr using Guid(b83c7061305e21b4fa10f4fc9e88d671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e7114a0224877fd20078b0a3c643709') in 0.022280 seconds 
+  Import took 0.027154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/TutorialInfo/VR Controllers Models/Oculus Controllers/oculus_rifts_controller_right/right_diff.png
+  artifactKey: Guid(072a5c35a005dd34cb17f72c7c8d3255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo/VR Controllers Models/Oculus Controllers/oculus_rifts_controller_right/right_diff.png using Guid(072a5c35a005dd34cb17f72c7c8d3255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ac304afe2386b3a2d5b0a68166cbef2') in 0.037009 seconds 
+  Import took 0.041517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Sketchfab For Unity/Dependencies/Resources/planPrem.png
+  artifactKey: Guid(951731ca1a3f48040bd45707362b9cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sketchfab For Unity/Dependencies/Resources/planPrem.png using Guid(951731ca1a3f48040bd45707362b9cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0b74c0e093e999b2ceffdb1e14db327') in 0.004642 seconds 
+  Import took 0.009426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/PlanetaryEarth4k.hdr
+  artifactKey: Guid(3675d0c3c874f6b479bab57eb7e68c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/FreebieHdri/PlanetaryEarth4k.hdr using Guid(3675d0c3c874f6b479bab57eb7e68c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6de3f6deac333b48bd6664dfd5f3803') in 0.242442 seconds 
+  Import took 0.248105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Sketchfab For Unity/Dependencies/Resources/planPro.png
+  artifactKey: Guid(b24fef0a6b5eee742b987488d5e4a977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sketchfab For Unity/Dependencies/Resources/planPro.png using Guid(b24fef0a6b5eee742b987488d5e4a977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e40ab310857b2caf5a5dfe313d6b0eea') in 0.004775 seconds 
+  Import took 0.009258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Sketchfab For Unity/Dependencies/Resources/planPlus.png
+  artifactKey: Guid(c34df2f1caa25744e97d9640882620d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sketchfab For Unity/Dependencies/Resources/planPlus.png using Guid(c34df2f1caa25744e97d9640882620d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f59e7618ead4593e60ffd5adf39403bf') in 0.004392 seconds 
+  Import took 0.009036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039151 seconds.
+  path: Assets/TutorialInfo/VR Controllers Models/Oculus Controllers/oculus_rifts_controller_right/right_spec.png
+  artifactKey: Guid(d109938d982dbaf4aa0fda691767b7a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo/VR Controllers Models/Oculus Controllers/oculus_rifts_controller_right/right_spec.png using Guid(d109938d982dbaf4aa0fda691767b7a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b468074c0d0a0e7e5d0d3963ec8edcd6') in 0.046601 seconds 
+  Import took 0.051675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Sketchfab For Unity/Dependencies/Resources/SketchfabGrey.png
+  artifactKey: Guid(4d92b94dc8a106541bc8628af0d9a7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sketchfab For Unity/Dependencies/Resources/SketchfabGrey.png using Guid(4d92b94dc8a106541bc8628af0d9a7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1661656ed2442329309a1981c60e2e5a') in 0.004625 seconds 
+  Import took 0.009292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Textures/Stars.jpg
+  artifactKey: Guid(009f38593ef98074bb61b889c1d1f088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Stars.jpg using Guid(009f38593ef98074bb61b889c1d1f088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbbd6e4eb21aeaeb70a08b54992b6dfa') in 0.037051 seconds 
+  Import took 0.041674 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/TutorialInfo/quest-2-controller-low-mid-and-high-poly/textures/Rough.png
+  artifactKey: Guid(082ef194e1014a449a44f4c394c589c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo/quest-2-controller-low-mid-and-high-poly/textures/Rough.png using Guid(082ef194e1014a449a44f4c394c589c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b410c2f02eea1794358a396f15b713c') in 0.045835 seconds 
+  Import took 0.050483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Sketchfab For Unity/Dependencies/Resources/SketchfabWhite.png
+  artifactKey: Guid(25ced97380dae3741bdeec1090f5a0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sketchfab For Unity/Dependencies/Resources/SketchfabWhite.png using Guid(25ced97380dae3741bdeec1090f5a0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c9c34a131593e9e3ae9ede6d0ccdcca') in 0.004581 seconds 
+  Import took 0.009215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/quest-2-controller-low-mid-and-high-poly/textures/Rough.png
+  artifactKey: Guid(dbff427b020c9d64d86f9f1c44d142c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/quest-2-controller-low-mid-and-high-poly/textures/Rough.png using Guid(dbff427b020c9d64d86f9f1c44d142c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e492cf02a7695bb9071e70b0ed6f5d9') in 0.038650 seconds 
+  Import took 0.042986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/SkyhighFluffycloudField4k.hdr
+  artifactKey: Guid(18a0be10f0f64ac4c9f679d68e2cf857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/FreebieHdri/SkyhighFluffycloudField4k.hdr using Guid(18a0be10f0f64ac4c9f679d68e2cf857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '324b886209cbed06b3d2a612f17154fd') in 0.258632 seconds 
+  Import took 0.263290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/VR Controllers Models/Valve Index Controllers/valve-index-controller-left/textures/valve_controller_knu_1_0_left_diff.png
+  artifactKey: Guid(d5b96eb7d89421a45bf46fb1b9b95475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Valve Index Controllers/valve-index-controller-left/textures/valve_controller_knu_1_0_left_diff.png using Guid(d5b96eb7d89421a45bf46fb1b9b95475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '147a63e8378809339999850670104325') in 0.047283 seconds 
+  Import took 0.051251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/TutorialInfo/Icons/UniversalIcon.png
+  artifactKey: Guid(7801804018a7dcf42abb827444e18660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo/Icons/UniversalIcon.png using Guid(7801804018a7dcf42abb827444e18660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67dc69972afeaa6475cb41253080e102') in 0.005925 seconds 
+  Import took 0.010495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/TutorialInfo/VR Controllers Models/Valve Index Controllers/valve-index-controller-left/source/valve_controller_knu_1_0_left_diff.png
+  artifactKey: Guid(75fc7d3938efc864190a33795f6ab9c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo/VR Controllers Models/Valve Index Controllers/valve-index-controller-left/source/valve_controller_knu_1_0_left_diff.png using Guid(75fc7d3938efc864190a33795f6ab9c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65d07b7595c6ccb7449c62b7e6bffdb0') in 0.039075 seconds 
+  Import took 0.043124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/VR Controllers Models/Valve Index Controllers/valve-index-controller-right/textures/valve_controller_knu_1_0_right_diff.png
+  artifactKey: Guid(50a5f1ad87dae8849968cd248276c118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Valve Index Controllers/valve-index-controller-right/textures/valve_controller_knu_1_0_right_diff.png using Guid(50a5f1ad87dae8849968cd248276c118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ddc931c101af93516dc9c7586c1b29c') in 0.040789 seconds 
+  Import took 0.044784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/TutorialInfo/VR Controllers Models/Valve Index Controllers/valve-index-controller-left/source/valve_controller_knu_1_0_left_spec.png
+  artifactKey: Guid(59244e62023de774a893b952f4ad2744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo/VR Controllers Models/Valve Index Controllers/valve-index-controller-left/source/valve_controller_knu_1_0_left_spec.png using Guid(59244e62023de774a893b952f4ad2744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '904722b633784fc36b57a62a30d44c89') in 0.039560 seconds 
+  Import took 0.044126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/VR Controllers Models/Valve Index Controllers/valve-index-controller-right/source/valve_controller_knu_1_0_right_spec.png
+  artifactKey: Guid(96aea92785aced5438e2fa6545eeba94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Valve Index Controllers/valve-index-controller-right/source/valve_controller_knu_1_0_right_spec.png using Guid(96aea92785aced5438e2fa6545eeba94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '694bd70773243154cc15bebabe4b3f87') in 0.041903 seconds 
+  Import took 0.046802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/UnearthlyRed4k.hdr
+  artifactKey: Guid(a3de28b69b48944438c87668bd722ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/FreebieHdri/UnearthlyRed4k.hdr using Guid(a3de28b69b48944438c87668bd722ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13ae11ba911fd36243321946e4263a7f') in 0.275161 seconds 
+  Import took 0.280326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/TutorialInfo/VR Controllers Models/Valve Index Controllers/valve-index-controller-right/source/valve_controller_knu_1_0_right_diff.png
+  artifactKey: Guid(1f4a6bdd27fdb7d43ae40a56d817efc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo/VR Controllers Models/Valve Index Controllers/valve-index-controller-right/source/valve_controller_knu_1_0_right_diff.png using Guid(1f4a6bdd27fdb7d43ae40a56d817efc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd97d1a0bc6c4264897afd450e307fc75') in 0.040471 seconds 
+  Import took 0.044413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/VR Controllers Models/Valve Index Controllers/valve-index-controller-right/source/valve_controller_knu_1_0_right_diff.png
+  artifactKey: Guid(a5d2ff6cebc887643ba35bc5a67c95c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Valve Index Controllers/valve-index-controller-right/source/valve_controller_knu_1_0_right_diff.png using Guid(a5d2ff6cebc887643ba35bc5a67c95c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '882240d5269649385d082ccacb65b8a4') in 0.043725 seconds 
+  Import took 0.048473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/SunlessCirruscover4k.hdr
+  artifactKey: Guid(99af420a4ccafa74abdc47436d8b0685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/FreebieHdri/SunlessCirruscover4k.hdr using Guid(99af420a4ccafa74abdc47436d8b0685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4310a3c4e76ee8a86f39574e6618447c') in 0.261294 seconds 
+  Import took 0.266418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/VR Controllers Models/Valve Index Controllers/valve-index-controller-left/source/valve_controller_knu_1_0_left_diff.png
+  artifactKey: Guid(6fcb811bae434ff4983b968cbee325de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Valve Index Controllers/valve-index-controller-left/source/valve_controller_knu_1_0_left_diff.png using Guid(6fcb811bae434ff4983b968cbee325de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30ce1bb4967d1b0974267b6f63f3a288') in 0.038919 seconds 
+  Import took 0.042989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/UnderTheSea4k.hdr
+  artifactKey: Guid(26cddb2a3a1bc804d8e9ca09b109793a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/FreebieHdri/UnderTheSea4k.hdr using Guid(26cddb2a3a1bc804d8e9ca09b109793a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4578c2dc0349fffedc2639da23f50a30') in 0.267940 seconds 
+  Import took 0.273092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/TutorialInfo/VR Controllers Models/Valve Index Controllers/valve-index-controller-left/textures/valve_controller_knu_1_0_left_spec.png
+  artifactKey: Guid(0c3c38e5bbafba44db641c3cc9c8b569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo/VR Controllers Models/Valve Index Controllers/valve-index-controller-left/textures/valve_controller_knu_1_0_left_spec.png using Guid(0c3c38e5bbafba44db641c3cc9c8b569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b26e06ea55b296d54fb18909c0237aa') in 0.046425 seconds 
+  Import took 0.050424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/TutorialInfo/VR Controllers Models/Valve Index Controllers/valve-index-controller-right/source/valve_controller_knu_1_0_right_spec.png
+  artifactKey: Guid(c8e2be619d9556243ac283631ee0f908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo/VR Controllers Models/Valve Index Controllers/valve-index-controller-right/source/valve_controller_knu_1_0_right_spec.png using Guid(c8e2be619d9556243ac283631ee0f908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66bf293a051496347d88ab58171e801a') in 0.048592 seconds 
+  Import took 0.052942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/VR Controllers Models/Valve Index Controllers/valve-index-controller-left/textures/valve_controller_knu_1_0_left_spec.png
+  artifactKey: Guid(314d0cdf0550520428e48b85b0ad447b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Valve Index Controllers/valve-index-controller-left/textures/valve_controller_knu_1_0_left_spec.png using Guid(314d0cdf0550520428e48b85b0ad447b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3a9363613da913da29252db4ca3474c') in 0.045013 seconds 
+  Import took 0.049604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/VR Controllers Models/Valve Index Controllers/valve-index-controller-left/source/valve_controller_knu_1_0_left_spec.png
+  artifactKey: Guid(526d1857a620b494db37a060f3ddee3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Valve Index Controllers/valve-index-controller-left/source/valve_controller_knu_1_0_left_spec.png using Guid(526d1857a620b494db37a060f3ddee3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f305ab931a1ea755a1ae4be30a311ec0') in 0.047956 seconds 
+  Import took 0.052495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/TutorialInfo/VR Controllers Models/Valve Index Controllers/valve-index-controller-left/textures/valve_controller_knu_1_0_left_diff.png
+  artifactKey: Guid(a4d9d9732a10bcf4aaa8458b82372a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo/VR Controllers Models/Valve Index Controllers/valve-index-controller-left/textures/valve_controller_knu_1_0_left_diff.png using Guid(a4d9d9732a10bcf4aaa8458b82372a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd947fa8e4853926944f59a93b8735dbf') in 0.039635 seconds 
+  Import took 0.043535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/TutorialInfo/VR Controllers Models/Valve Index Controllers/valve-index-controller-right/textures/valve_controller_knu_1_0_right_diff.png
+  artifactKey: Guid(fc874122c5820fe4298f20197bb5dcb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo/VR Controllers Models/Valve Index Controllers/valve-index-controller-right/textures/valve_controller_knu_1_0_right_diff.png using Guid(fc874122c5820fe4298f20197bb5dcb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fae55d85a1edd1350604a42b0a2e54b1') in 0.038708 seconds 
+  Import took 0.043653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/VR Controllers Models/Oculus Controllers/oculus_rifts_controller_right/right_spec.png
+  artifactKey: Guid(1629d9dbdcc5f62429f53a13c4bce9df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Oculus Controllers/oculus_rifts_controller_right/right_spec.png using Guid(1629d9dbdcc5f62429f53a13c4bce9df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87c216b96b7690965ac8ba7e99db82f4') in 0.037918 seconds 
+  Import took 0.041833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/VolumetricLines/BuiltInRenderPipeline/ExampleScenes/ExampleTextures/Steam_A_from_Unity_sample_project_AngryBots.psd
+  artifactKey: Guid(d0f02542b58827040a53f41483d556fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VolumetricLines/BuiltInRenderPipeline/ExampleScenes/ExampleTextures/Steam_A_from_Unity_sample_project_AngryBots.psd using Guid(d0f02542b58827040a53f41483d556fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5042fc0ff62988b5bf25bb136ad7542') in 0.007504 seconds 
+  Import took 0.011530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 135.610146 seconds.
+  path: ProjectSettings/ProjectSettings.asset
+  artifactKey: Guid(00000000000000004000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/ProjectSettings.asset using Guid(00000000000000004000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28531590049569a71fb3574de383112b') in 0.003969 seconds 
+  Import took 0.009199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 75.193218 seconds.
+  path: ProjectSettings/ProjectSettings.asset
+  artifactKey: Guid(00000000000000004000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/ProjectSettings.asset using Guid(00000000000000004000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a6d185f3d2bb903f79c5b2653b708d4') in 0.002442 seconds 
+  Import took 0.007603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 79.460554 seconds.
+  path: ProjectSettings/ProjectSettings.asset
+  artifactKey: Guid(00000000000000004000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/ProjectSettings.asset using Guid(00000000000000004000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19cd1442c3a2af4316c2986a0514168d') in 0.002524 seconds 
+  Import took 0.007386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.223111 seconds.
+  path: ProjectSettings/ProjectSettings.asset
+  artifactKey: Guid(00000000000000004000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/ProjectSettings.asset using Guid(00000000000000004000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba80e46d73489dd4db60258d6b9457c0') in 0.002437 seconds 
+  Import took 0.007184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.653778 seconds.
+  path: ProjectSettings/ProjectSettings.asset
+  artifactKey: Guid(00000000000000004000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/ProjectSettings.asset using Guid(00000000000000004000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21a9affbb76303e074c5643a11fc50c5') in 0.002480 seconds 
+  Import took 0.007426 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.20 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.0 MB.
+System memory in use after: 90.3 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3917.
+Total: 4.460500 ms (FindLiveObjects: 0.319300 ms CreateObjectMapping: 0.164800 ms MarkObjects: 3.961400 ms  DeleteObjects: 0.014400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.50 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.0 MB.
+System memory in use after: 90.2 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3917.
+Total: 3.530600 ms (FindLiveObjects: 0.339000 ms CreateObjectMapping: 0.151800 ms MarkObjects: 3.027000 ms  DeleteObjects: 0.011800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 164.096433 seconds.
+  path: Assets/VR Controllers Models/Valve Index Controllers/valve-index-controller-right/textures/valve_controller_knu_1_0_right_spec.png
+  artifactKey: Guid(61c8b0e4ddab2e1489b0a3daa8bae98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Valve Index Controllers/valve-index-controller-right/textures/valve_controller_knu_1_0_right_spec.png using Guid(61c8b0e4ddab2e1489b0a3daa8bae98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd6f2884cfb6afdd70e839ed6f6063dd') in 0.089092 seconds 
+  Import took 0.094467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/TutorialInfo/VR Controllers Models/Valve Index Controllers/valve-index-controller-right/textures/valve_controller_knu_1_0_right_spec.png
+  artifactKey: Guid(d333645734af8af4983aa35396c82d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo/VR Controllers Models/Valve Index Controllers/valve-index-controller-right/textures/valve_controller_knu_1_0_right_spec.png using Guid(d333645734af8af4983aa35396c82d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaf649eceaca0eeb8e6b1b73afe835e6') in 0.057547 seconds 
+  Import took 0.062108 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.30 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.0 MB.
+System memory in use after: 90.2 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3917.
+Total: 3.801000 ms (FindLiveObjects: 0.330100 ms CreateObjectMapping: 0.169800 ms MarkObjects: 3.289600 ms  DeleteObjects: 0.010900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.30 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.0 MB.
+System memory in use after: 90.2 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3917.
+Total: 4.223700 ms (FindLiveObjects: 0.319000 ms CreateObjectMapping: 0.149500 ms MarkObjects: 3.739700 ms  DeleteObjects: 0.014800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.18 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.0 MB.
+System memory in use after: 90.2 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3917.
+Total: 3.667800 ms (FindLiveObjects: 0.316200 ms CreateObjectMapping: 0.156400 ms MarkObjects: 3.183500 ms  DeleteObjects: 0.011100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.60 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.0 MB.
+System memory in use after: 90.2 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3917.
+Total: 3.918900 ms (FindLiveObjects: 0.344600 ms CreateObjectMapping: 0.166900 ms MarkObjects: 3.391000 ms  DeleteObjects: 0.015500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
